@@ -7,7 +7,8 @@ public class FlowEx24 {
 		while(--i != 0) {
 			System.out.println(i + " - I can do it.");
 		}
-
+		for(i=1; i<=10; i++);
+		{System.out.println(i);}
 	}
 
 }
