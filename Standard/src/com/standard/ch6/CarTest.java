@@ -20,22 +20,22 @@ public class CarTest {
 
 }
 
-class Car{
-	String color;
-	String gearType;
-	int door;
-	Car() {
-		
-	}
-	
-	Car(String c){
-		this(c, "auto", 4);
-		door = 5;
-	}
-	
-	Car(String c, String g, int d) {
-		color = c;
-		gearType = g;
-		door = d;
-	}
-}
+//class Car{
+//	String color;
+//	String gearType;
+//	int door;
+//	Car() {
+//		
+//	}
+//	
+//	Car(String c){
+//		this(c, "auto", 4);
+//		door = 5;
+//	}
+//	
+//	Car(String c, String g, int d) {
+//		color = c;
+//		gearType = g;
+//		door = d;
+//	}
+//}
