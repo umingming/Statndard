@@ -7,11 +7,8 @@ public class DocumentTest {
 		Document d2 = new Document("자바.txt");
 		Document d3 = new Document();
 		Document d4 = new Document();
-
 	}
-
 }
-
 
 class Document {
 	static int count = 0;
@@ -24,6 +21,4 @@ class Document {
 		this.name = name;
 		System.out.println(this.name);
 	}
-	
-	
 }
