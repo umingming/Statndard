@@ -12,6 +12,7 @@ public class DocumentTest {
 
 }
 
+
 class Document {
 	static int count = 0;
 	String name;
