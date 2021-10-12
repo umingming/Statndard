@@ -48,17 +48,18 @@ class Deck{
 }
 
 
-class Card{
-	static final int KIND_MAX = 4;
-	static final int NUM_MAX = 13;
-
-	static final int SPADE = 4;
-	static final int DIAMOND = 3;
-	static final int HEART = 2;
-	static final int CLOVER = 1;
+//class Card{
+//	static final int KIND_MAX = 4;
+//	static final int NUM_MAX = 13;
+//
+//	static final int SPADE = 4;
+//	static final int DIAMOND = 3;
+//	static final int HEART = 2;
+//	static final int CLOVER = 1;
 	
-	int kind;
-	int number;
+	final String KIND;
+	final int NUMBER;
+	static int width
 	
 	Card(){
 		this(SPADE, 1);
