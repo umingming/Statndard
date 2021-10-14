@@ -10,12 +10,9 @@ public class ExceptionEx4 {
 			System.out.println(0/0);
 			System.out.println(4);
 		} catch (ArithmeticException ae) {
-			if(ae instanceof ArithmeticException){
-				System.out.println("true");
-			}
-			System.out.println("ArithmeticException");
-		} catch (Exception e) {
-			System.out.println("Exception");
+			ae.printStackTrace();
+			System.out.println("-");
+			System.out.println(ae.getMessage());
 		}
 		
 		System.out.println(6);
