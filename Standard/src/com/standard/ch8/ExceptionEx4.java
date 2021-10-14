@@ -9,7 +9,7 @@ public class ExceptionEx4 {
 			System.out.println(3);
 			System.out.println(0/0);
 			System.out.println(4);
-		} catch (Exception e) {
+		} catch (ArithmeticException e) {
 			System.out.println(5);
 		}
 		
