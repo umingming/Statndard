@@ -1,5 +1,5 @@
 package com.standard.ch14;
-interface MyFunction{
+interface MyFunction2{
 	void run();
 }
 
